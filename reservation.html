@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation | PARADISE</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<header>
+    <a href="../agence.html" class="logo">PARA<span>DISE</span></a>
+
+    <nav>
+        <a href="../agence.html">Accueil</a>
+        <a href="collection.html">Destinations</a>
+        <a href="services.html">Services</a>
+        <a href="promotions.html">Promotions</a>
+        <a href="contact.html">Contact</a>
+        <a href="reservation.html" class="btn active">Réserver</a>
+    </nav>
+</header>
+
+<section class="page-banner">
+    <h1>Réservez votre voyage</h1>
+    <p>Préparez votre prochaine aventure avec PARADISE.</p>
+</section>
+
+<section class="section">
+
+    <div class="section-title">
+        <h2>Formulaire de réservation</h2>
+        <p>Complétez les informations pour préparer votre séjour.</p>
+    </div>
+
+    <div class="form-container">
+
+        <form>
+
+            <div class="form-group">
+                <label>Nom et prénom</label>
+                <input type="text" name="nom"
+                       placeholder="Votre nom complet" required>
+            </div>
+
+            <div class="form-group">
+                <label>Adresse e-mail</label>
+                <input type="email" name="email"
+                       placeholder="exemple@email.com" required>
+            </div>
+
+            <div class="form-group">
+                <label>Numéro de téléphone</label>
+                <input type="tel" name="telephone"
+                       placeholder="+216 XX XXX XXX" required>
+            </div>
+
+            <div class="form-group">
+                <label>Destination</label>
+                <select name="destination" required>
+                    <option value="">Choisir une destination</option>
+                    <option>Paris - France</option>
+                    <option>Bali - Indonésie</option>
+                    <option>New York - USA</option>
+                    <option>Rome - Italie</option>
+                    <option>Marrakech - Maroc</option>
+                    <option>Maldives</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Date de départ</label>
+                <input type="date" name="date_depart" required>
+            </div>
+
+            <div class="form-group">
+                <label>Nombre de voyageurs</label>
+                <input type="number" name="voyageurs"
+                       min="1" max="20" placeholder="Exemple : 2" required>
+            </div>
+
+            <div class="form-group">
+                <label>Type de voyage</label>
+                <select name="type_voyage" required>
+                    <option value="">Choisir un type de voyage</option>
+                    <option>Voyage organisé</option>
+                    <option>Voyage en famille</option>
+                    <option>Voyage en couple</option>
+                    <option>Voyage individuel</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Informations supplémentaires</label>
+                <textarea name="message"
+                          placeholder="Vos demandes particulières..."></textarea>
+            </div>
+
+            <details class="confirmation">
+                <summary class="btn">Envoyer ma demande</summary>
+
+                <div class="success-message">
+                    <h3>✓ Demande envoyée avec succès !</h3>
+                    <p>
+                        Merci pour votre confiance !
+                        Votre demande de réservation a bien été prise en compte.
+                        Notre équipe PARADISE vous contactera prochainement.
+                    </p>
+                </div>
+            </details>
+
+        </form>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <div class="footer-content">
+
+        <div>
+            <h3>PARADISE</h3>
+            <p>Votre partenaire pour des voyages inoubliables.</p>
+        </div>
+
+        <div>
+            <h3>Navigation</h3>
+            <a href="../agence.html">Accueil</a>
+            <a href="collection.html">Destinations</a>
+            <a href="services.html">Services</a>
+        </div>
+
+        <div>
+            <h3>Contact</h3>
+            <p>Tunisie</p>
+            <p>contact@paradise.com</p>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        © 2026 PARADISE - Tous droits réservés.
+    </div>
+
+</footer>
+
+</body>
+</html>
